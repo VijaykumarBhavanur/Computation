@@ -5,12 +5,20 @@ class Computation{
 		return  num1 + num2;
 	}
 	
+	public static int sub(int num1, int num2)
+	{
+		return  num1 - num2;
+	}
+	
 	public static void main(String args[])
 	{
 		
 		System.out.println("Welcome to Computation Program");
 		int sum=add(10,20);
 		System.out.println("Sum is: "+sum);
+		
+		int sub=sub(10,20);
+		System.out.println("Sub is: "+sub);
 		
 	}
 	
